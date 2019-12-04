@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/deborah-de-graaff/static/css/main.d048716c.chunk.css",
+    "main.js": "/deborah-de-graaff/static/js/main.a3ac2b0f.chunk.js",
+    "main.js.map": "/deborah-de-graaff/static/js/main.a3ac2b0f.chunk.js.map",
+    "runtime-main.js": "/deborah-de-graaff/static/js/runtime-main.91655950.js",
+    "runtime-main.js.map": "/deborah-de-graaff/static/js/runtime-main.91655950.js.map",
+    "static/css/2.80382e18.chunk.css": "/deborah-de-graaff/static/css/2.80382e18.chunk.css",
+    "static/js/2.12613fc9.chunk.js": "/deborah-de-graaff/static/js/2.12613fc9.chunk.js",
+    "static/js/2.12613fc9.chunk.js.map": "/deborah-de-graaff/static/js/2.12613fc9.chunk.js.map",
+    "index.html": "/deborah-de-graaff/index.html",
+    "precache-manifest.a16cea88afa4ea85fec5a734e516c69b.js": "/deborah-de-graaff/precache-manifest.a16cea88afa4ea85fec5a734e516c69b.js",
+    "service-worker.js": "/deborah-de-graaff/service-worker.js",
+    "static/css/2.80382e18.chunk.css.map": "/deborah-de-graaff/static/css/2.80382e18.chunk.css.map",
+    "static/css/main.d048716c.chunk.css.map": "/deborah-de-graaff/static/css/main.d048716c.chunk.css.map",
+    "static/media/semantic.min.css": "/deborah-de-graaff/static/media/outline-icons.ef60a4f6.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.91655950.js",
+    "static/css/2.80382e18.chunk.css",
+    "static/js/2.12613fc9.chunk.js",
+    "static/css/main.d048716c.chunk.css",
+    "static/js/main.a3ac2b0f.chunk.js"
+  ]
+}
