@@ -5,6 +5,7 @@ import { CSSTransition } from 'react-transition-group'
 import Home from './pages/Home'
 import Links from './pages/Links'
 import Contact from './pages/Contact'
+import Events from './pages/Events'
 
 import NavBar from './components/NavBar'
 import SideBarMenuItems from './components/SideBarMenuItems'
@@ -14,6 +15,7 @@ const routes = [
   { path: '/', name: 'Home', Component: Home },
   { path: '/links', name: 'Links', Component: Links },
   { path: '/contact', name: 'Contact', Component: Contact },
+  { path: '/events', name: 'Events', Component: Events },
 ]
 
 export default function App() {
@@ -33,6 +35,7 @@ export default function App() {
             visible={visible}
             width='thin'
             pointing
+            inverted
           >
             <SideBarMenuItems />
             {/* <Menu.Item as={Link} to='/' icon='home' name='home' />
@@ -40,7 +43,7 @@ export default function App() {
             <Menu.Item as={Link} to="/links" icon="chain" name='Links & Resources' /> */}
           </Sidebar>
 
-          <Sidebar.Pusher>
+          <Sidebar.Pusher className="appContainer">
             <NavBar sideBarIsOpen={visible} setVisible={(e) => setVisible(e)} />
 
             {routes.map(({ path, Component }) => (
