@@ -12,8 +12,8 @@ export const JumboHeader = styled(Header)`
     `
 
 export const Jumbotron = styled.div`
-    background-position: right 0% top 0% !important;
-    background-size: contain !important;
+    background-position: ${props => props.right ? 'right 15vw top 0% !important' : 'center'};
+    background-size: ${props => props.contain ? 'contain !important' : 'cover !important'};
     background-repeat: no-repeat !important;
      background: ${props => `url('${props.src}')`};
      height: ${props => props.fullHeight ? "85vh !important" : "40vh"};

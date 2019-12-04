@@ -32,10 +32,9 @@ function NavBar(props) {
             </Menu.Item>
         </Responsive >
         <Responsive inverted secondary as={FixedMenu}  {...Responsive.onlyComputer}>
-            <Menu.Item as={Link} active={props.location.pathname === '/'} to='/' icon='home' name='home' />
-            <Menu.Item as={Link} active={props.location.pathname === '/contact'} to="/contact" icon="mail" name='Contact' />
-            <Menu.Item as={Link} active={props.location.pathname === '/links'} to="/links" icon="chain" name='Links & Resources' />
-        </Responsive>
+            {props.routes.map(r =>
+                <Menu.Item active={props.location.pathname === r.path} as={Link} to={r.path} name={r.name} />
+            )}</Responsive>
     </>
 }
 
