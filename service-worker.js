@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/deborah-de-graaff/precache-manifest.53ca95e5ba18200cfb89701aca2952f4.js"
+  "/deborah-de-graaff/precache-manifest.8b30d3a70e9a661bfc07ad02f38f0bea.js"
 );
 
 self.addEventListener('message', (event) => {
