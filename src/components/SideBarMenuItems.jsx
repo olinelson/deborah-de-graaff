@@ -11,6 +11,7 @@ function SideBarMenuItems(props) {
           as={Link}
           to={r.path}
           name={r.name}
+          onClick={() => props.setVisible(false)}
         />
       ))}
     </>

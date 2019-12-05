@@ -16,7 +16,6 @@ const routes = [
   { path: "/about", name: "About", Component: About },
   { path: "/contact", name: "Contact", Component: Contact },
   { path: "/music", name: "Music", Component: Music }
-  // { path: '/events', name: 'Events', Component: Events },
 ];
 
 export default function App() {
@@ -38,10 +37,10 @@ export default function App() {
               pointing
               inverted
             >
-              <SideBarMenuItems routes={routes} />
-              {/* <Menu.Item as={Link} to='/' icon='home' name='home' />
-            <Menu.Item as={Link} to="/contact" icon="mail" name='Contact' />
-            <Menu.Item as={Link} to="/links" icon="chain" name='Links & Resources' /> */}
+              <SideBarMenuItems
+                setVisible={e => setVisible(e)}
+                routes={routes}
+              />
             </Sidebar>
 
             <Sidebar.Pusher className='appContainer'>
