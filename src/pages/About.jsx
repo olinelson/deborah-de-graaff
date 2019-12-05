@@ -46,7 +46,6 @@ export default function About() {
                 <Image
                   centered
                   fluid
-                  // floated=''
                   size='medium'
                   src={`${BASE_URL}images/headshot3.jpeg`}
                 />
