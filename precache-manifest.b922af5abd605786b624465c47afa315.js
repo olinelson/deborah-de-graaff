@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8fe3f6ee6251f6e37d4de3f850f52325",
+    "revision": "fc3d8e8ce20435b43c4b7945e530cbbc",
     "url": "/deborah-de-graaff/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/deborah-de-graaff/static/css/2.80382e18.chunk.css"
   },
   {
-    "revision": "f3936f3b537019e2fde9",
+    "revision": "1b2e958e67ddf87e8c07",
     "url": "/deborah-de-graaff/static/css/main.33c8310e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/deborah-de-graaff/static/js/2.071dfed1.chunk.js"
   },
   {
-    "revision": "f3936f3b537019e2fde9",
-    "url": "/deborah-de-graaff/static/js/main.c189e00e.chunk.js"
+    "revision": "1b2e958e67ddf87e8c07",
+    "url": "/deborah-de-graaff/static/js/main.99e15512.chunk.js"
   },
   {
     "revision": "8984da8e7207b053d417",
