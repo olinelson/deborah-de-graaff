@@ -15,7 +15,7 @@ export default function About() {
           <Image
             floated='right'
             size='medium'
-            src={`${BASE_URL}/images/headshot3.webp`}
+            src={`${BASE_URL}images/headshot3.webp`}
           />
           <p>
             Early in her career Deborah competed locally and internationally in

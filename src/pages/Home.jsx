@@ -16,7 +16,7 @@ function Home() {
         right
         contain
         fullHeight
-        src={`${BASE_URL}/images/headshot2.jpeg`}
+        src={`${BASE_URL}images/headshot2.jpeg`}
       >
         <JumboMessage>
           <JumboHeader size='huge' as={"h1"} inverted>
