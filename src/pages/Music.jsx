@@ -88,12 +88,12 @@ export default function Music() {
         <Image
           style={{ width: "20rem", height: "20rem" }}
           href='http://www.joshuatreemusic.com.au/'
-          src={`${BASE_URL}images/windEnergy.webp`}
+          src={`${BASE_URL}images/windEnergy.jpg`}
         />
         <Image
           style={{ width: "20rem", height: "20rem" }}
           href='https://store.cdbaby.com/cd/strahan2'
-          src={`${BASE_URL}images/roseOfTheBay.webp`}
+          src={`${BASE_URL}images/roseOfTheBay.jpg`}
         />
         <Image
           style={{ width: "20rem", height: "20rem" }}
@@ -103,7 +103,7 @@ export default function Music() {
         <Image
           style={{ width: "20rem", height: "20rem" }}
           href='http://www.arkivmusic.com/classical/Name/Arcadia-Lane-Orchestra/Ensemble/164473-4'
-          src={`${BASE_URL}images/cherryRipe.webp`}
+          src={`${BASE_URL}images/cherryRipe.jpg`}
         />
       </AlbumContainer>
     </Container>
