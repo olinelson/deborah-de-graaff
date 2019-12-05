@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Header, Container, Divider, Image, Segment } from "semantic-ui-react";
+import { BASE_URL } from "../config";
 export default function About() {
   return (
     <>
@@ -11,7 +12,11 @@ export default function About() {
       <Container inverted text>
         <Segment inverted>
           <Header inverted>Biography</Header>
-          <Image floated='right' size='medium' src='/images/headshot3.webp' />
+          <Image
+            floated='right'
+            size='medium'
+            src={`${BASE_URL}/images/headshot3.webp`}
+          />
           <p>
             Early in her career Deborah competed locally and internationally in
             London and Munich, winning numerous prizes, scholarships and awards,

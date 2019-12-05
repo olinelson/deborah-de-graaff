@@ -1,4 +1,6 @@
 import React from "react";
+import { BASE_URL } from "../config";
+
 import { Header, Label, Item, Container, Divider } from "semantic-ui-react";
 import {
   JumboHeader,
@@ -10,7 +12,12 @@ import Events from "./Events";
 function Home() {
   return (
     <>
-      <Jumbotron right contain fullHeight src='/images/headshot2.jpeg'>
+      <Jumbotron
+        right
+        contain
+        fullHeight
+        src={`${BASE_URL}/images/headshot2.jpeg`}
+      >
         <JumboMessage>
           <JumboHeader size='huge' as={"h1"} inverted>
             Deborah <span style={{ color: "#FFCC51" }}>de</span> Graaff
