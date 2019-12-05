@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Music from "./pages/Music";
 import About from "./pages/About";
+import Teaching from "./pages/Teaching";
 
 import NavBar from "./components/NavBar";
 import SideBarMenuItems from "./components/SideBarMenuItems";
@@ -15,7 +16,8 @@ const routes = [
   { path: "/", name: "Home", Component: Home },
   { path: "/about", name: "About", Component: About },
   { path: "/contact", name: "Contact", Component: Contact },
-  { path: "/music", name: "Music", Component: Music }
+  { path: "/music", name: "Music", Component: Music },
+  { path: "/teaching", name: "Teaching", Component: Teaching }
 ];
 
 export default function App() {
