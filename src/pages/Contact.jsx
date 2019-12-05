@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Embed,
-  Container,
-  Form,
-  Button,
-  Header,
-  Divider
-} from "semantic-ui-react";
+import { Container, Form, Button, Header } from "semantic-ui-react";
 
 import styled from "styled-components";
 
@@ -20,13 +13,6 @@ export default function Contact() {
 
   return (
     <CenteredContainer text>
-      {/* <Jumbotron
-        style={{
-          backgroundImage: `url('https://storage.googleapis.com/inner_wisdom_bucket/ancient-art-asia-302100.jpg') `,
-          backgroundPosition: "center"
-        }}
-      /> */}
-
       <Form
         inverted
         action='https://formspree.io/olinelson93@gmail.com'

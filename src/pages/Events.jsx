@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Container, Segment, Header, Embed } from "semantic-ui-react";
+import { Container, Segment, Header } from "semantic-ui-react";
 
 export default function Events() {
   console.log("events");
@@ -24,7 +24,7 @@ export default function Events() {
       <Segment inverted>
         <a
           class='bit-widget-initializer'
-          data-artist-name='Louis%20Cole'
+          data-artist-name='Deborah de Graaff'
           data-display-local-dates='false'
           data-display-past-dates='true'
           data-auto-style='false'

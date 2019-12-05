@@ -6,6 +6,7 @@ export default function About() {
     <>
       <Divider hidden />
       <Divider hidden />
+      <Divider hidden />
 
       <Container inverted text>
         <Segment inverted>
@@ -49,14 +50,17 @@ export default function About() {
 
         <Segment inverted>
           <Header inverted>Education</Header>
-
+          <Header.Subheader>PhD Thesis</Header.Subheader>
+          <p>Completed March 2014 University of New South Wales</p>
+          <p>Title: The Practice Efficiency of Elite Instrumental Musicians</p>
           <p>
-            PhD Thesis completed March 2014 University of New South Wales Thesis
-            Title: The Practice Efficiency of Elite Instrumental Musicians
             Supervisor: Emery Schubert (examiners Siw Nielsen and Susan Hallam)
-            2007-2014 Bachelor of Music Peformance (Distinction) NSW State
-            Conservatorium of Music 1979-1982
           </p>
+          <Divider />
+          <Header.Subheader>
+            2007-2014 Bachelor of Music Peformance (Distinction)
+          </Header.Subheader>
+          <p>NSW State Conservatorium of Music 1979-1982</p>
         </Segment>
 
         <Segment inverted>
@@ -101,7 +105,6 @@ export default function About() {
               Pini, Ronald Thomas, Georg Pederson, Susan Blake, and others
             </li>
           </ul>
-
           <p> Concerto soloist with:</p>
           <ul>
             <li>
@@ -113,16 +116,13 @@ export default function About() {
               orchestras through to present day
             </li>
           </ul>
-
           <p>Recording Projects</p>
-          <Link to='/music'>Music</Link>
-
+          See <Link to='/music'>Music</Link>
           <p>Broadcasts regularly for:</p>
           <ul>
             <li>ABC (Live and studio)</li>
             <li>2MBS FM</li>
           </ul>
-
           <p> Orchestral Experience</p>
           <ul>
             <li>ABO Australian Brandenburg Orchestra</li>
@@ -218,22 +218,36 @@ export default function About() {
               here) https://openacademy.sydney.edu.au/ One-to-one teaching
               talented young students Coached weekly chamber music tutorials
             </li>
-            <li>
-              Private Clarinet Studio ​ George Street Studio, Town Hall, One to
-              one teaching of all ages – young, mature, post grad, and
-              professional mentoring Scholarship preparation for secondary
-              school awards and scholarship Preparation for university entry
-              auditions Preparation for post graduate entry Preparation for
-              eisteddfods awards and scholarships Mentored and teaching
-              continued with many of these students into university, and post
-              graduate studies Coached practice classes, group workshops and
-              chamber music studio sessions of select serious young and talented
-              students from all over Sydney Directed group workshops and chamber
-              music sessions of mature age students and music teachers, from all
-              over Sydney Regularly tutors youth orchestras and wind sectionals
-            </li>
           </ul>
-          Teaching Research and Publications​ (link)
+          <Header inverted> Private Clarinet Studio </Header>
+          <p>George Street Studio, Town Hall</p>
+          <ul>
+            <li>
+              One to one teaching of all ages – young, mature, post grad, and
+              professional mentoring
+            </li>
+            <li>
+              Scholarship preparation for secondary school awards and
+              scholarship
+            </li>
+            <li>Preparation for university entry auditions</li>
+            <li>Preparation for post graduate entry</li>
+            <li>Preparation for eisteddfods awards and scholarships</li>
+            <li>
+              Mentored and teaching continued with many of these students into
+              university, and post graduate studies
+            </li>
+            <li>
+              Coached practice classes, group workshops and chamber music studio
+              sessions of select serious young and talented students from all
+              over Sydney
+            </li>
+            <li>
+              Directed group workshops and chamber music sessions of mature age
+              students and music teachers, from all over Sydney
+            </li>
+            <li>Regularly tutors youth orchestras and wind sectionals</li>
+          </ul>
         </Segment>
 
         <Segment inverted>
@@ -275,12 +289,14 @@ export default function About() {
         </Segment>
 
         <Segment inverted>
-          <Header inverted>Administrative Experience</Header>
+          <Header inverted>
+            Administrative Experience - Skills for the industry
+          </Header>
           <p>
-            Skills for the industry Administration Musicians are by necessity a
-            flexible and creative type of people. (link takes you to website
-            group Employability) Administration in all its forms, is a necessary
-            skill for all performing musicians and artists.
+            Musicians are by necessity a flexible and creative type of people.
+            (link takes you to website group Employability) Administration in
+            all its forms, is a necessary skill for all performing musicians and
+            artists.
           </p>
           <p>
             Understanding the many variations of 'work' that life as a musician
@@ -348,43 +364,135 @@ export default function About() {
         </Segment>
 
         <Segment inverted>
-          <Header inverted>Publications</Header>
+          <Header inverted>Projects and Grants</Header>
           <p>
-            Research: Publications Papers and Presentations Since her PhD about
-            elite instrumental practice strategies, Deborah has published
-            several papers on the subjects of identifying pitch errors and their
-            sources, developed a Note-Time Playing Path and is currently
-            completing a paper on Thematic coding of elite players practice and
-            will soon publish material on her Model of Elite Practice ​ ​ PhD
-            Thesis UNSW 2014 (Link Here) de Graaff, D. L. E. (2014). Practice
-            strategies of an elite instrumental performer: A case study under
-            test conditions, comparing quantitative data to coded Think Aloud
-            and interview. (Doctoral PhD), UNSW, University of New South Wales.
-            ​ ​ • de Graaff, D. L. E., & Schubert, E. (2016). Pitch Error Coding
-            The Sight Read, Practice, and Performance of an Elite Oboist:
-            Developing a Protocol Based on the Serial Distance Hypothesis,
-            Implication-Realization Model, and Schema Theory. Music Perception
-            http://mp.ucpress.edu/content/34/2/132 ​ ​ • de Graaff, D. L. E., &
-            Schubert, E. (2010). Analysing playing using the Note-Time Playing
-            Path. Behavioural Research Methods. Retrieved from
-            doi:10.3758/s13428-010-0041-0
-            https://www.ncbi.nlm.nih.gov/pubmed/21287106 ​ • de Graaff, D. L. E.
-            (2015, 7-9 December 2015). Engaging and Motivating Students of
-            Music: Applying the Model of Elite Practice Phase 1. Paper presented
-            at the 2nd Conference of the Australian Music & Psychology Society
-            AMPS 2015: The Art and Science of Music, Western Sydney University,
-            Parramatta. ​ • Too many attentional demands of the elite performer
-            require the sacrifice of a skill. MPPP (Music Perception Performance
-            Research Day), Speed Paper Presented, 8 May 2012 ​ • Analysing
-            Practice Behaviour and Cognition: The Method of Note-Time Playing
-            Path, Paper Presented at ICOMCS, 2008 LINK HERE ​ • Expert Music
-            Practice. Presentation on PhD research investigating quantitatively
-            the way expert musicians practice to achieve virtuoso performance.
-            Duet with Robot from UNSW Physics department. The duet is an
-            arrangement of the allegro from Tartini's concertino for clarinet
-            (arranged by Phil Green).
-            http://www.phys.unsw.edu.au/jw/clarinetrobot.html August 2008
+            Designing and creating projects and applying for grants are an
+            essential part of the skill set required for work in the creative
+            and music world.
           </p>
+          <ul>
+            <li>
+              Successfully applied for, awarded, administrated and performed in
+              $45,000 Thyne Reed Trust Donation funding for Walsingham Ulpirra
+              and ABC Brahms CD project
+            </li>
+            <li>
+              Successfully applied for, awarded, administrated and performed
+              SHELL - $10,000 sponsorship -Ku-ring-gai Virtuosi STUDIO Series
+              presented at Sydney Opera House Series{" "}
+            </li>
+            <li>
+              Assisted in successful application and performed in Telecom
+              Australia sponsorship ($25,000) The Elms Collection
+            </li>
+            <li>
+              Successfully applied for, awarded, administrated and completed
+              documentation for Local Council Funding grants (c$1200 for 9
+              years) Ku-ring-gai Virtuosi
+            </li>
+            <li>
+              Successfully applied for, awarded and completed a collaborative
+              project as Ensemble in Residence – Three of Hearts performing,
+              workshopping, teaching performance and stage craft with students
+              and music staff at The Pittwater House School
+            </li>
+            <li>
+              Successfully applied for, awarded, and completed documentation for
+              Alfred S White grant for over 3 years for KV
+            </li>
+            <li>
+              Successfully applied for, administrated and completed
+              documentation for commissions from numerous composers, Holley,
+              Smith, Henderson, Coyle, and Staggs{" "}
+            </li>
+            <li>
+              Awarded a translation grant from Sydney Conservatorium of Music to
+              research further material I brought back from Hungary on player
+              RSI prevention – by Dr Geza Kovacs (Elpis Liosssatos translator of
+              material)
+            </li>
+          </ul>
+        </Segment>
+
+        <Segment inverted>
+          <Header inverted> Fund Raising</Header>
+          <p>What can we give to our world - as well as the joy of music ?</p>
+          <ul>
+            <li>
+              Member of committee and assistant secretary for Musicians for
+              World Peace, (SOH) Joan Sutherland, James Gallway, David Oistrach.
+              $50k, $30k $25k donated to charities such as Community Aid Abroad,
+              Oxfam and Unicef{" "}
+            </li>
+            <li>
+              Performer and committee member for Music Cares for Cancer (SOH)
+              and (Town Hall) Richard Bonynge, Robin Mate, Sydney Adventist
+              Hospital performer and committee
+            </li>
+            <li>Performer for Zonta – fund raising for music scholarship</li>
+          </ul>
+        </Segment>
+
+        <Segment inverted>
+          <Header inverted>
+            Research: Publications Papers and Presentations
+          </Header>
+          <p>
+            Since her PhD about elite instrumental practice strategies, Deborah
+            has published several papers on the subjects of identifying pitch
+            errors and their sources, developed a Note-Time Playing Path and is
+            currently completing a paper on Thematic coding of elite players
+            practice and will soon publish material on her Model of Elite
+            Practice
+          </p>
+          <ul>
+            <li>
+              PhD Thesis UNSW 2014 (Link Here) de Graaff, D. L. E. (2014).
+              Practice strategies of an elite instrumental performer: A case
+              study under test conditions, comparing quantitative data to coded
+              Think Aloud and interview. (Doctoral PhD), UNSW, University of New
+              South Wales. ​
+            </li>
+            <li>
+              de Graaff, D. L. E., & Schubert, E. (2016). Pitch Error Coding The
+              Sight Read, Practice, and Performance of an Elite Oboist:
+              Developing a Protocol Based on the Serial Distance Hypothesis,
+              Implication-Realization Model, and Schema Theory. Music Perception
+              http://mp.ucpress.edu/content/34/2/132
+            </li>
+            <li>
+              de Graaff, D. L. E., & Schubert, E. (2010). Analysing playing
+              using the Note-Time Playing Path. Behavioural Research Methods.
+              Retrieved from doi:10.3758/s13428-010-0041-0{" "}
+              <a href='https://www.ncbi.nlm.nih.gov/pubmed/21287106'>
+                Click Here
+              </a>
+            </li>
+            <li>
+              de Graaff, D. L. E. (2015, 7-9 December 2015). Engaging and
+              Motivating Students of Music: Applying the Model of Elite Practice
+              Phase 1. Paper presented at the 2nd Conference of the Australian
+              Music & Psychology Society AMPS 2015: The Art and Science of
+              Music, Western Sydney University, Parramatta.
+            </li>
+            <li>
+              Too many attentional demands of the elite performer require the
+              sacrifice of a skill. MPPP (Music Perception Performance Research
+              Day), Speed Paper Presented, 8 May 2012
+            </li>
+            <li>
+              Analysing Practice Behaviour and Cognition: The Method of
+              Note-Time Playing Path, Paper Presented at ICOMCS, 2008 LINK HERE
+            </li>
+            <li>
+              Expert Music Practice. Presentation on PhD research investigating
+              quantitatively the way expert musicians practice to achieve
+              virtuoso performance. Duet with Robot from UNSW Physics
+              department. The duet is an arrangement of the allegro from
+              Tartini's concertino for clarinet (arranged by Phil Green).
+              http://www.phys.unsw.edu.au/jw/clarinetrobot.html August 2008
+            </li>
+          </ul>
         </Segment>
       </Container>
     </>
