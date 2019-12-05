@@ -1,7 +1,7 @@
 import React from "react";
 import { BASE_URL } from "../config";
 
-import { Header, Label, Item, Container, Divider } from "semantic-ui-react";
+import { Divider } from "semantic-ui-react";
 import {
   JumboHeader,
   JumboMessage,
