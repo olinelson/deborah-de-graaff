@@ -93,7 +93,7 @@ export default function Music() {
         <Image
           style={{ width: "20rem", height: "20rem" }}
           href='https://store.cdbaby.com/cd/strahan2'
-          src={`${BASE_URL}images/roseOfTheBay.jpg`}
+          src={`${BASE_URL}images/RoseOfTheBay.jpg`}
         />
         <Image
           style={{ width: "20rem", height: "20rem" }}
