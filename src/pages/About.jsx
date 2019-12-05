@@ -1,6 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Header, Container, Divider, Image, Segment } from "semantic-ui-react";
+import {
+  Header,
+  Container,
+  Divider,
+  Image,
+  Segment,
+  Grid
+} from "semantic-ui-react";
 import { BASE_URL } from "../config";
 export default function About() {
   return (
@@ -12,33 +19,51 @@ export default function About() {
       <Container inverted text>
         <Segment inverted>
           <Header inverted>Biography</Header>
-          <Image
-            floated='right'
-            size='medium'
-            src={`${BASE_URL}images/headshot3.jpeg`}
-          />
-          <p>
-            Early in her career Deborah competed locally and internationally in
-            London and Munich, winning numerous prizes, scholarships and awards,
-            including national and Commonwealth ABC instrumental competitions in
-            1983.For over 30 years she has performed as chamber musician most
-            notably with her mother Lauris Elms, soprano Rita Hunter, pianists
-            Geoffrey Parsons, John Winther and Len Vorster.
-          </p>
+
+          <Grid stackable>
+            <Grid.Row columns={2}>
+              <Grid.Column>
+                <p>
+                  Early in her career Deborah competed locally and
+                  internationally in London and Munich, winning numerous prizes,
+                  scholarships and awards, including national and Commonwealth
+                  ABC instrumental competitions in 1983.For over 30 years she
+                  has performed as chamber musician most notably with her mother
+                  Lauris Elms, soprano Rita Hunter, pianists Geoffrey Parsons,
+                  John Winther and Len Vorster.
+                </p>
+
+                <p>
+                  As a concerto soloist she performed with Richard Bonynge and
+                  Paul Dyer Brandenburg. She also worked overseas with the Fine
+                  Arts Orchestra at St Martin in the Fields and in Vietnam. She
+                  regularly broadcasts for the ABC, has recorded over sixteen
+                  CDs, and collaborates in chamber recitals often premiering
+                  especially written Australian compositions.
+                </p>
+              </Grid.Column>
+              <Grid.Column>
+                <Image
+                  centered
+                  fluid
+                  // floated=''
+                  size='medium'
+                  src={`${BASE_URL}images/headshot3.jpeg`}
+                />
+              </Grid.Column>
+            </Grid.Row>
+          </Grid>
+
+          <Divider hidden />
 
           <p>
-            As a concerto soloist she performed with Richard Bonynge and Paul
-            Dyer Brandenburg. She also worked overseas with the Fine Arts
-            Orchestra at St Martin in the Fields and in Vietnam. She regularly
-            broadcasts for the ABC, has recorded over sixteen CDs, and
-            collaborates in chamber recitals often premiering especially written
-            Australian compositions. Teaching at the Sydney Conservatorium of
-            Music Tertiary, High School and Open Academy, she is a Research
-            Affiliate also teaching Clarinet at UNSW and her private Sydney Town
-            Hall studio. Awarded her PhD UNSW 2014 (Practice Strategies of Elite
-            Instrumental Musicians) she received a USYD Large Innovative Grant
-            (2015) applying her PhD Model of Elite Practice (MEP) towards music
-            student motivation at Conservatorium.
+            Teaching at the Sydney Conservatorium of Music Tertiary, High School
+            and Open Academy, she is a Research Affiliate also teaching Clarinet
+            at UNSW and her private Sydney Town Hall studio. Awarded her PhD
+            UNSW 2014 (Practice Strategies of Elite Instrumental Musicians) she
+            received a USYD Large Innovative Grant (2015) applying her PhD Model
+            of Elite Practice (MEP) towards music student motivation at
+            Conservatorium.
           </p>
 
           <p>
