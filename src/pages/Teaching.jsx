@@ -46,7 +46,7 @@ export default function Teaching() {
 
         <Segment inverted>
           <Header inverted>Online Course</Header>
-          {/* <p>Coming Soon...</p> */}
+          <p>Coming Soon...</p>
         </Segment>
       </Container>
     </>
