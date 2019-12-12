@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/deborah-de-graaff/static/css/main.33c8310e.chunk.css",
-    "main.js": "/deborah-de-graaff/static/js/main.b3a8439a.chunk.js",
-    "main.js.map": "/deborah-de-graaff/static/js/main.b3a8439a.chunk.js.map",
-    "runtime-main.js": "/deborah-de-graaff/static/js/runtime-main.91655950.js",
-    "runtime-main.js.map": "/deborah-de-graaff/static/js/runtime-main.91655950.js.map",
-    "static/css/2.80382e18.chunk.css": "/deborah-de-graaff/static/css/2.80382e18.chunk.css",
-    "static/js/2.64de5ae0.chunk.js": "/deborah-de-graaff/static/js/2.64de5ae0.chunk.js",
-    "static/js/2.64de5ae0.chunk.js.map": "/deborah-de-graaff/static/js/2.64de5ae0.chunk.js.map",
-    "index.html": "/deborah-de-graaff/index.html",
-    "precache-manifest.5dd3642647adefff1a94c39ad5284672.js": "/deborah-de-graaff/precache-manifest.5dd3642647adefff1a94c39ad5284672.js",
-    "service-worker.js": "/deborah-de-graaff/service-worker.js",
-    "static/css/2.80382e18.chunk.css.map": "/deborah-de-graaff/static/css/2.80382e18.chunk.css.map",
-    "static/css/main.33c8310e.chunk.css.map": "/deborah-de-graaff/static/css/main.33c8310e.chunk.css.map",
-    "static/media/semantic.min.css": "/deborah-de-graaff/static/media/outline-icons.ef60a4f6.woff"
+    "main.css": "/static/css/main.33c8310e.chunk.css",
+    "main.js": "/static/js/main.5deb9d5b.chunk.js",
+    "main.js.map": "/static/js/main.5deb9d5b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.557c8ad2.js",
+    "runtime-main.js.map": "/static/js/runtime-main.557c8ad2.js.map",
+    "static/css/2.d5d05702.chunk.css": "/static/css/2.d5d05702.chunk.css",
+    "static/js/2.70872981.chunk.js": "/static/js/2.70872981.chunk.js",
+    "static/js/2.70872981.chunk.js.map": "/static/js/2.70872981.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.0ea703da6b3685a95e8149a9114a65dc.js": "/precache-manifest.0ea703da6b3685a95e8149a9114a65dc.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.d5d05702.chunk.css.map": "/static/css/2.d5d05702.chunk.css.map",
+    "static/css/main.33c8310e.chunk.css.map": "/static/css/main.33c8310e.chunk.css.map",
+    "static/media/semantic.min.css": "/static/media/outline-icons.ef60a4f6.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.91655950.js",
-    "static/css/2.80382e18.chunk.css",
-    "static/js/2.64de5ae0.chunk.js",
+    "static/js/runtime-main.557c8ad2.js",
+    "static/css/2.d5d05702.chunk.css",
+    "static/js/2.70872981.chunk.js",
     "static/css/main.33c8310e.chunk.css",
-    "static/js/main.b3a8439a.chunk.js"
+    "static/js/main.5deb9d5b.chunk.js"
   ]
 }
