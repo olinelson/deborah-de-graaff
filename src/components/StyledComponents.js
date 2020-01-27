@@ -37,6 +37,7 @@ export const FooterContainer = styled.div`
 
 export const AlbumContainer = styled.div`
   display: grid;
+  justify-items: center;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   grid-gap: 2rem;
 `;

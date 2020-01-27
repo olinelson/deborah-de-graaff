@@ -85,22 +85,22 @@ export default function Music() {
           </a>
         </iframe>
 
-        <Image
+        <img
           style={{ width: "20rem", height: "20rem" }}
           href='http://www.joshuatreemusic.com.au/'
           src={`${BASE_URL}images/windEnergy.jpg`}
         />
-        <Image
+        <img
           style={{ width: "20rem", height: "20rem" }}
           href='https://store.cdbaby.com/cd/strahan2'
           src={`${BASE_URL}images/RoseOfTheBay.jpg`}
         />
-        <Image
+        <img
           style={{ width: "20rem", height: "20rem" }}
           href='http://staging-naxos.aws.naxos.com/catalogue/item.asp?item_code=8.557324'
           src={`${BASE_URL}images/lennox.jpg`}
         />
-        <Image
+        <img
           style={{ width: "20rem", height: "20rem" }}
           href='http://www.arkivmusic.com/classical/Name/Arcadia-Lane-Orchestra/Ensemble/164473-4'
           src={`${BASE_URL}images/cherryRipe.jpg`}
