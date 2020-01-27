@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Divider, Image } from "semantic-ui-react";
+import { Container, Divider } from "semantic-ui-react";
 import { AlbumContainer } from "../components/StyledComponents";
 import { BASE_URL } from "../config";
 
