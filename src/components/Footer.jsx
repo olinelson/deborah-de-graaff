@@ -9,12 +9,6 @@ export default function Footer() {
         <Icon name='copyright' />
         Deborah de Graaff {new Date().getFullYear()}
       </p>
-      <small>
-        designed and developed by{"  "}
-        <a target='blank' href='http://olinelson.com'>
-          Oli Nelson
-        </a>
-      </small>
     </FooterContainer>
   );
 }
