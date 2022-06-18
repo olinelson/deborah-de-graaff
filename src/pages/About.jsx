@@ -6,7 +6,7 @@ import {
   Divider,
   Image,
   Segment,
-  Grid
+  Grid,
 } from "semantic-ui-react";
 import { BASE_URL } from "../config";
 export default function About() {
@@ -46,7 +46,7 @@ export default function About() {
                 <Image
                   centered
                   fluid
-                  size='medium'
+                  size="medium"
                   src={`${BASE_URL}images/headshot3.jpeg`}
                 />
               </Grid.Column>
@@ -56,24 +56,29 @@ export default function About() {
           <Divider hidden />
 
           <p>
-            Teaching at the Sydney Conservatorium of Music Tertiary, High School
-            and Open Academy, she is a Research Affiliate also teaching Clarinet
-            at UNSW and her private Sydney Town Hall studio. Awarded her PhD
-            UNSW 2014 (Practice Strategies of Elite Instrumental Musicians) she
-            received a USYD Large Innovative Grant (2015) applying her PhD Model
-            of Elite Practice (MEP) towards music student motivation at
-            Conservatorium.
+            Awarded her PhD UNSW 2014 (Practice Strategies of Elite Instrumental
+            Musicians) she received a USYD Large Innovative Grant (2015)
+            applying her PhD Model of Elite Practice (MEP) towards music student
+            motivation at Conservatorium. Her 2016 publications include a Pitch
+            Error Coding Protocol paper, co-authored with Emery Schubert,
+            published in Music Perception (December 2016 issue). Her 2018 CD
+            titled Rags Bags and Tangos with pianist Tonya Lemoh is available on
+            her <a href="https://deborahdegraaff.com">website</a>. Other 2019
+            concerts include collaboration with cellist Rachel Scott’s series
+            Bach in the Dark.
           </p>
 
           <p>
-            Her 2016 publications include a Pitch Error Coding Protocol paper,
-            co-authored with Emery Schubert, published in Music Perception
-            (December 2016 issue). Her new CD titled Rags Bags and Tangos will
-            be available on her website mid 2018. Deborah is currently working
-            on an on-line video and PDF clarinet ‘book’ designed for teachers of
-            clarinet and advanced students wishing to gain the most out of their
-            practice. It will be launched on deborahdegraaff.com in the
-            following year.
+            Having taught for many years at the Sydney Conservatorium of Music
+            Tertiary, High School and Open Academy, she now applies her elite
+            practice method toward a select group of advanced students of all
+            ages at her Sydney city Town Hall studio. Recently located to rural
+            NSW (near Canberra), she is enjoying work in mentoring programmes
+            for the NSW rural community and stimulating the arts outside the
+            major capital cities. She continues to perform, recording solo and
+            ensemble repertoire. Deborah is preparing on an on-line video and
+            PDF clarinet ‘book’ designed for teachers of clarinet and advanced
+            students wishing to gain the most out of their practice.
           </p>
         </Segment>
 
@@ -146,7 +151,7 @@ export default function About() {
             </li>
           </ul>
           <p>Recording Projects</p>
-          See <Link to='/music'>Music</Link>
+          See <Link to="/music">Music</Link>
           <p>Broadcasts regularly for:</p>
           <ul>
             <li>ABC (Live and studio)</li>
@@ -493,7 +498,7 @@ export default function About() {
               de Graaff, D. L. E., & Schubert, E. (2010). Analysing playing
               using the Note-Time Playing Path. Behavioural Research Methods.
               Retrieved from doi:10.3758/s13428-010-0041-0{" "}
-              <a href='https://www.ncbi.nlm.nih.gov/pubmed/21287106'>
+              <a href="https://www.ncbi.nlm.nih.gov/pubmed/21287106">
                 Click Here
               </a>
             </li>
