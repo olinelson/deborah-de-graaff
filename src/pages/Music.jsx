@@ -95,26 +95,42 @@ export default function Music() {
           </a>
         </iframe>
 
-        <img
-          style={{ width: "20rem", height: "20rem" }}
-          href="http://www.joshuatreemusic.com.au/"
-          src={`${BASE_URL}images/windEnergy.jpg`}
-        />
-        <img
-          style={{ width: "20rem", height: "20rem" }}
-          href="https://store.cdbaby.com/cd/strahan2"
-          src={`${BASE_URL}images/RoseOfTheBay.jpg`}
-        />
-        <img
-          style={{ width: "20rem", height: "20rem" }}
-          href="http://staging-naxos.aws.naxos.com/catalogue/item.asp?item_code=8.557324"
-          src={`${BASE_URL}images/lennox.jpg`}
-        />
-        <img
-          style={{ width: "20rem", height: "20rem" }}
-          href="http://www.arkivmusic.com/classical/Name/Arcadia-Lane-Orchestra/Ensemble/164473-4"
-          src={`${BASE_URL}images/cherryRipe.jpg`}
-        />
+        <a
+          target="_blank"
+          href="https://www.australianmusiccentre.com.au/artist/spike-kristofer"
+        >
+          <img
+            style={{ width: "20rem", height: "20rem" }}
+            src={`${BASE_URL}images/windEnergy.jpg`}
+          />
+        </a>
+        <a
+          target="_blank"
+          href="https://classical.music.apple.com/au/album/30640073"
+        >
+          <img
+            style={{ width: "20rem", height: "20rem" }}
+            src={`${BASE_URL}images/RoseOfTheBay.webp`}
+          />
+        </a>
+        <a
+          target="_blank"
+          href="https://www.amazon.com/Berkeley-Preludes-Sonatina-Violin-Concertino/dp/B0009JMEJM"
+        >
+          <img
+            style={{ width: "20rem", height: "20rem" }}
+            src={`${BASE_URL}images/lennox.jpg`}
+          />
+        </a>
+        <a
+          target="_blank"
+          href="https://www.melbarecordings.com.au/catalogue/album/cherry-ripe"
+        >
+          <img
+            style={{ width: "20rem", height: "20rem" }}
+            src={`${BASE_URL}images/cherryRipe.jpg`}
+          />
+        </a>
       </AlbumContainer>
     </Container>
   );
